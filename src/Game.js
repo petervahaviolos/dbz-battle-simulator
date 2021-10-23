@@ -43,7 +43,4 @@ export class Game extends Component {
   }
 }
 
-//<Player id="player1" scale={-1} actions={actions1} startPosition={{ x: window.innerWidth / 2 - 500, y: window.innerHeight / 2 }} />
-//<Player id="player2" scale={1} actions={actions2} startPosition={{ x: window.innerWidth / 2 + 500, y: window.innerHeight / 2 }} />
-
 export default Game;
