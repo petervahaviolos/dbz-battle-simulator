@@ -1,0 +1,21 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'PT Mono', serif;
+  color: #ffffff;
+}
+
+#container {
+    position: relative;
+    min-width: 100vh;
+    min-height: 100vh;
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+}
+
+.health {
+  font-family: 'Arial';
+  padding: 2px;
+  background: green;
+  border: 1px solid black;
+}
