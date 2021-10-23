@@ -215,7 +215,7 @@ export default class Player extends React.Component {
 
     reachedPosition(position) {
         //Check if we are within 10px of the position (number can be adjusted)
-        return Math.abs(this.state.position.x - position.x) <= 10
+        return Math.abs(this.state.position.x - position.x) <= 3
     }
 
     update() {
